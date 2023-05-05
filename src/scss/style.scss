@@ -1,0 +1,124 @@
+@import './variables';
+@import './mixins';
+@import './functions';
+
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    .he{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        border: 1px solid $baseColor;
+        width: 80%;
+        height: 55px;
+        background-color: $backgroundColor;
+        .d{
+            position: absolute;
+            background-color: $accentColor;
+            width: 35px;
+            height: 45px;
+            color: $textColor;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button{
+            height: 35px;
+            position: relative;
+            top: 17%;
+            background-color: $accentColor;
+            color: $textColor;
+            border-color: $accentColor;
+            border-radius: 5px;
+        }
+        p{
+            margin-right: 340px;
+        }
+    }
+}
+main{
+    h1{
+        margin-left: 17%;
+        margin-bottom: 35px;
+    }
+    .osn{
+        
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        margin-left: 17%;
+        .b{   
+            width: 30%; 
+            margin-bottom: 30px;
+            @include gradient;
+            .a{  
+                width: 75%;
+                height: 230px;
+                margin-bottom: 30px;
+                span{
+                    border: 1px solid $textColor;
+                    color: $baseColor;
+                    background-color: $backgroundColor;
+                    font: {
+                        size: 14px; 
+                        weight: normal;
+                    }
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    
+                    
+                }
+            }
+            span{
+                font: {
+                    size: 22px;
+                    weight: bold; 
+                }
+            }
+            p{
+                width: 75%;
+                text-align: left;
+            }
+        }  
+    }
+}
+footer{
+    .fo{
+        border-top:  1px solid $baseColor;
+        width: 80%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    p{
+        margin-top: 30px;
+        margin-left: 9%;
+        font-size: 14px;
+    }
+    .last{
+        margin-right: 9% ;
+        a:hover{
+            img{
+                height: 60px;
+            }
+        }
+        img{
+            height: 50px;
+            float: right;
+            margin-top: -45px;
+            
+        }
+        
+    }
+    
+}
+

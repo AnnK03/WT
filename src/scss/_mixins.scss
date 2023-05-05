@@ -1,0 +1,7 @@
+@mixin gradient{
+    @for $i from 1 through 5 {
+        &:nth-child(#{$i}n) .a { 
+          background-color: color-count($i); 
+        }
+    }
+}

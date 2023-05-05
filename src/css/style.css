@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif; }
+
+header .he {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80%;
+  height: 55px;
+  background-color: #cce3de; }
+  header .he .d {
+    position: absolute;
+    background-color: #a4c3b2;
+    width: 35px;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif; }
+  header .he button {
+    height: 35px;
+    position: relative;
+    top: 17%;
+    background-color: #a4c3b2;
+    color: white;
+    border-color: #a4c3b2;
+    border-radius: 5px; }
+  header .he p {
+    margin-right: 340px; }
+
+main h1 {
+  margin-left: 17%;
+  margin-bottom: 35px; }
+main .osn {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  margin-left: 17%; }
+  main .osn .b {
+    width: 30%;
+    margin-bottom: 30px; }
+    main .osn .b:nth-child(1n) .a {
+      background-color: #003200; }
+    main .osn .b:nth-child(2n) .a {
+      background-color: darkgreen; }
+    main .osn .b:nth-child(3n) .a {
+      background-color: #009600; }
+    main .osn .b:nth-child(4n) .a {
+      background-color: #00c800; }
+    main .osn .b:nth-child(5n) .a {
+      background-color: #00fa00; }
+    main .osn .b .a {
+      width: 75%;
+      height: 230px;
+      margin-bottom: 30px; }
+      main .osn .b .a span {
+        border: 1px solid white;
+        color: black;
+        background-color: #cce3de;
+        font-size: 14px;
+        font-weight: normal;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px; }
+    main .osn .b span {
+      font-size: 22px;
+      font-weight: bold; }
+    main .osn .b p {
+      width: 75%;
+      text-align: left; }
+
+footer .fo {
+  border-top: 1px solid black;
+  width: 80%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; }
+footer p {
+  margin-top: 30px;
+  margin-left: 9%;
+  font-size: 14px; }
+footer .last {
+  margin-right: 9%; }
+  footer .last a:hover img {
+    height: 60px; }
+  footer .last img {
+    height: 50px;
+    float: right;
+    margin-top: -45px; }
+
+/*# sourceMappingURL=style.css.map */
